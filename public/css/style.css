@@ -1,0 +1,40 @@
+body {
+    background: #99cc99;
+}
+
+@media screen and (max-width:767px) {
+
+    /* 画面サイズが767px以下の場合読み込む */
+    .title_block {
+        margin-top: 50px;
+    }
+
+    .main_text {
+        font-size: 60px;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+
+    .img_size {
+        width: 80px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    /* 画面サイズが768px以上の場合読み込む */
+    .title_block {
+        margin-top: 20px;
+    }
+
+    .main_text {
+        font-size: 100px;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+
+    .img_size {
+        width: 150px;
+    }
+}
